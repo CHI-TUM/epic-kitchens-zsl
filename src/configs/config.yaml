@@ -1,0 +1,23 @@
+meta:
+  audio_features: ???  # path to CSV with audio features
+  text_features: ???  # path to CSV with text features
+  results_root: ???  # path to store results in
+  segments_info: ??? # path to segments info
+  device: cuda:0
+  split: predefined
+  model: linear
+  target_column: verb_class
+  meta_type: text
+  num_folds: 5
+  embeddings_are_2D: False
+  use_predefined_clf_sets: False
+  predefined_zsl_splits: ??? # path to the folder containing the (five) splits with each having (train, dev, test csvs), e.g. "./splits/zsl-5fold"
+hparams:
+  batch_size: 16
+  learning_rate: 0.0001
+  optimizer: SGD
+  epochs: 30
+  seed: 23
+  compatibility: dot_product
+  loss: ranking
+  normalisation_type: column
