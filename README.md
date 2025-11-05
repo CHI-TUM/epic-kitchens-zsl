@@ -40,18 +40,13 @@ egocentric vision: Collection, pipeline and challenges for epic-kitchens-
 ## Citation
 ```
 @inproceedings{Gebhard25-TAZ,
-    author = {Alexander Gebhard and Andreas Triantafyllopoulos and Iosif Tsangko and Bj\"orn W.\ Schuller},
-    title = {{Towards Audio-based Zero-Shot Action Recognition in Kitchen Environments}}, 
-    booktitle = {Proceedings of The 10. Workshop on Detection and Classification of Acoustic Scenes and Events, DCASE 2025},
-    year = {2025},
-    editor = {},
-    volume = {},
-    series = {},
-    address = {Barcelona, Spain},
-    month = {10},
-    publisher = {},
-    organization = {IEEE},
-    pages = {},
-    note = {5 pages, to appear},
+    author = "Gebhard, Alexander and Triantafyllopoulos, Andreas and Tsangko, Iosif and Schuller, Björn W.",
+    title = "Towards Audio-based Zero-Shot Action Recognition in Kitchen Environments",
+    booktitle = "Proceedings of the 10th Workshop on Detection and Classification of Acoustic Scenes and Events (DCASE 2025)",
+    address = "Barcelona, Spain",
+    month = "October",
+    year = "2025",
+    pages = "15--19",
+    doi = "10.5281/zenodo.17251589"
 }
 ```
