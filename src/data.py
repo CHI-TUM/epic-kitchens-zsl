@@ -59,9 +59,9 @@ class LabelEncoder(audobject.Object):
             codes = list(range(len(labels)))
         self.codes = codes
         self.inverse_map = {code: label for code,
-                    label in zip(codes, labels)}
+                    label in zip(codes, self.labels)}
         self.map = {label: code for code,
-                            label in zip(codes, labels)}
+                            label in zip(codes, self.labels)}
 
     def encode(self, x):
         return self.map[x]
