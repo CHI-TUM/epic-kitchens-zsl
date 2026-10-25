@@ -3,10 +3,6 @@
 This repository accompanies the paper
 "Towards Audio-based Zero-Shot Action Recognition in Kitchen Environments" of (Gebhard et al., 2025). 
 
-## Status
-
-**WARNING:** This repository is still under construction. We are now in the process of cleaning up and adding instructions.
-
 ##  Code structure
 Our repository comprises three main folders:
 
