@@ -1,7 +1,7 @@
 # Towards Audio-based Zero-Shot Action Recognition in Kitchen Environments
 
 This repository accompanies the paper
-"Towards Audio-based Zero-Shot Action Recognition in Kitchen Environments" of (Gebhard et al., 2025). 
+"Towards Audio-based Zero-Shot Action Recognition in Kitchen Environments" of [(Gebhard et al., 2025)](https://dcase.community/documents/workshop2025/proceedings/DCASE2025Workshop_Gebhard_5.pdf). 
 
 ##  Code structure
 Our repository comprises three main folders:
